@@ -1,4 +1,4 @@
-import Mock from "mockjs"
+import Mock from "mockjs" 
 const requireComponent = require.context("./modules", true, /\.*\.js$/)
 requireComponent.keys().map((fileName) => {
   const item = requireComponent(fileName).default
