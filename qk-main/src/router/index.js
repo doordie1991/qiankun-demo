@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import NProgress from 'nprogress'
-import token from '@/utils/token' 
+import token from '@/utils/token'
 
 // 路由实例
 let router
